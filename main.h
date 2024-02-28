@@ -15,7 +15,7 @@ void getLine_check(char *ptr);
 void exit_1(int value, char *pointer);
 int check_space(char *array);
 void environment(char **env);
-int _exe_path(char **str);
+int path_finder(char **ptr);
 
 
 int process_command(char *line, char **env);
@@ -27,7 +27,7 @@ int _fprintf(int f_des, char *buf);
 int _fputch(int f_des, char ch);
 void disp_env(char **env);
 
-size_t _strlen(const char *str);
+size_t _strlen(const char *s);
 size_t _strspn(const char *s, const char *accept);
 
 #endif
